@@ -1,0 +1,25 @@
+[debug] [2021-08-13T06:54:30.377Z] ----------------------------------------------------------------------
+[debug] [2021-08-13T06:54:30.379Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TinotendaMuponda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-13T06:54:30.380Z] CLI Version:   9.16.3
+[debug] [2021-08-13T06:54:30.380Z] Platform:      win32
+[debug] [2021-08-13T06:54:30.380Z] Node Version:  v14.15.1
+[debug] [2021-08-13T06:54:30.381Z] Time:          Fri Aug 13 2021 08:54:30 GMT+0200 (Central Africa Time)
+[debug] [2021-08-13T06:54:30.381Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-13T06:54:30.443Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-13T06:54:30.443Z] > authorizing via signed-in user (mupondatinotenda@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\TinotendaMuponda\Documents\GitHub\Repositories\kmlegalweb
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

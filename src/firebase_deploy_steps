@@ -7,4 +7,6 @@ firebase login
 
 firebase init
 
-firebase deploy  //to deploy every new change 
+firebase deploy  //to deploy every new change
+
+Set the “ng build” folder to match the public folder we set up for firebase
