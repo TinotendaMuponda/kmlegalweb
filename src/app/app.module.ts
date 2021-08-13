@@ -1,22 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatSliderModule } from '@angular/material/slider'
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MdButtonModule, MdSnackBarModule, MdSidenavModule } from '@angular/material';
-
 import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-
-  ],
+    AppComponent,
+    HeaderComponent,
+    FooterComponent
+],
   imports: [
+    // HeaderComponent,
+    // FooterComponent,
     BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-
+    RouterModule.forRoot([]),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
