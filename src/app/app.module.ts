@@ -14,8 +14,6 @@ import { RouterModule } from '@angular/router';
     FooterComponent
 ],
   imports: [
-    // HeaderComponent,
-    // FooterComponent,
     BrowserModule,
     RouterModule.forRoot([]),
     BrowserAnimationsModule
