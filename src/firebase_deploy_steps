@@ -10,3 +10,7 @@ firebase init
 firebase deploy  //to deploy every new change
 
 Set the “ng build” folder to match the public folder we set up for firebase
+
+change angular json Element Output path to be "public"
+
+ng build  - to build the files
